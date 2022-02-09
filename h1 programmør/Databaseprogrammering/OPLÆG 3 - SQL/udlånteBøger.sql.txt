@@ -1,0 +1,18 @@
+SELECT 
+l.fornavn
+, l.efternavn
+, l.gade
+, l.husnummer
+, l.postNr
+, p.bynavn
+, u.dato as udlaant
+, b.titel
+, CONCAT(f.fornavn, ' ', f.efternavn) as forfatter
+, u.aflevering as afleveret
+FROM laaner l
+INNER JOIN postby p ON (l.postNr = p.postnr)
+INNER JOIN udlaan u ON (l.laaner_id = u.id_laaner)
+INNER JOIN boeger b ON (u.id_bog = b.bog_id)
+INNER JOIN forfatterbog fg ON (b.bog_id = fg.id_bog)
+INNER JOIN forfatter f ON (fg.id_forfatter = f.forfatter_id)
+WHERE u.aflevering IS NOT NULL
