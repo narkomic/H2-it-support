@@ -1,0 +1,2 @@
+https://ubuntu.com/download/desktop
+http://mirrors.dotsrc.org/centos/8.4.2105/isos/x86_64/
