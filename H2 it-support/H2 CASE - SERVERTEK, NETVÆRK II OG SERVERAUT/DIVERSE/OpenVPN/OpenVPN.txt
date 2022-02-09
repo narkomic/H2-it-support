@@ -1,0 +1,13 @@
+Package manager
+install open vmtools
+install openvpn client export tool
+åben menu -> openvpn
+run wizard
+vælg "local user access"
+opret ny CA
+opret nyt server certifikat
+angiv tunnel netværk/lokal netværk
+flueben i FW Rule / Openvpn Rule
+opret user med password (små og STORE bogstaver)
+exporter client package og installer
+connect med user navn og pw på Extern_Net

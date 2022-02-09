@@ -1,0 +1,23 @@
+Niveau: Rutineret
+
+1. Eleven kan installere og konfigurere en Web-server og tilhørende plugins i forhold til en given opgave. 
+2. Eleven kan konfigurere sikkerhed og brugerspecifikke tilladelser . 
+3. Eleven kan installere supplerende plugins på en Web-server, som f.eks. CGI og Java Servlets. 
+4. Eleven kan opsætte HTTP og HTTPS. 
+5. Eleven kan installere og konfigurere værktøjer til administration af hostede løsninger svarende til et web host panel suite, som bl.a. indeholder SQL implementering. 
+6. Eleven kan opsætte og anvende DNS, Mail server, DHCP, Web-server samt webmail. 
+7. Eleven kan anvende Pre- og Post-routing, samt opsætte NAT. 
+8. Eleven kan opsætte Firewalls via terminal. 
+9. Eleven kan forklare og opsætte traditionelle og transparente Proxy som f.eks. Squid, samt opsætte Firewalls, som f.eks. Iptables, FirewallD eller PFSense, sammen med Squid.
+Niveau: Avanceret
+
+Som ovenfor, men suppleret med:
+
+Eleven kan, ud fra en case-opgave selvstændigt designe, planlægge, installere, konfigurere og dokumentere en avanceret Web-serverløsning, der omhandler de beskrevne mål, og kan herigennem demonstrere viden, færdigheder og kompetencer, der ligger ud over de i faget beskrevne mål og målniveauer.
+Niveau: Ekspert
+
+Som ovenfor, men suppleret med:
+
+Eleven kan, ud fra en case-beskrivelse, indeholdende løsning af en kompleks arbejdsopgave, selvstændigt designe, planlægge, installere, konfigurere og dokumentere en samlet kompleks Web-serverløsning, der omhandler de beskrevne mål, og kan herigennem demonstrere viden, færdigheder og kompetencer, der ligger ud over de i faget beskrevne mål og målniveauer. Endvidere kan eleven begrunde de valgte løsninger og fremvise evner til at tilrettelægge og styre arbejdsprocessen.
+
+Senest ændret: onsdag den 26. januar 2022, 13:43

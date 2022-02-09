@@ -1,0 +1,22 @@
+Router(config)#access-list 1 permit (LAN iper) (LAN netmaske som wildcard mask)
+tilføj flere LAN netværk med samme kommando, blot men andre LAN adresser 
+
+Router(config)#ip nat inside source list 1 interface fa x/x eller gi x/x (Interface hvor internettet sidder i) overload
+Router(config)# interface serial x/x/x
+Router(config-if)#ip nat inside
+Router(config-if)#exit
+Router(config)#interface serial x/x/x
+Router(config-if)#ip nat inside
+Router(config-if)#exit
+Router(config)#interface fastethernet eller gigabitEthernet x/x
+Router(config-if)#ip nat inside
+Router(config-if)#exit
+Router(config)#interface fastethernet eller gigabitEthernet x/x
+Router(config-if)#ip nat outside
+Router(config-if)#exit
+Router(config)#ip route 0.0.0.0 0.0.0.0 fastEthernet x/x el gigabitEthernet x/x (interface hvor internettet sidder i)
+
+
+
+
+

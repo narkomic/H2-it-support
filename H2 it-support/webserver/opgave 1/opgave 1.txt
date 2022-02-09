@@ -1,0 +1,15 @@
+
+Webserver - CaseOpgave
+To do: Aflever en besvarelse
+KAPOW!
+Kampsportcenteret ”Kapow” ønsker at få opsat en webserver.
+Kapow tilbyder i øjeblikket træning i MBA og karate, men det er tanken løbende at udvide med nye aktiviteter efterhånden som centerets bygninger bliver færdiggjorte.
+
+Webserveren skal til en start hoste domænerne ”kapow.ninja”, ”kapow-mba.ninja” og ”kapow-karate.ninja”.
+På hvert af disse domæner ønskes et særligt afsnit ”intra”, som skal password-beskyttes.
+
+Efter rådslagning med deres webudvikler, som udvikler i PHP/MySQL har Kapow besluttet, at de ønsker løsningen opsat på en Linux/Ubuntu server. Udvikleren skal kunne tilgå de relevante områder på serveren via FTP.
+
+I første omgang har man besluttet, at man ønsker at bibeholde nogle ældre tilmeldingsscripts, som er udviklet i Perl vha. nogle CGI-teknologier, så det er vigtigt, at disse kan eksekveres på serveren.
+
+Det er tanke, at kommunikation mellem medlemmerne på sigt kommer til at foregå via www, så sikkerheden mht. persondata ligger Kapow stærkt på sinde.

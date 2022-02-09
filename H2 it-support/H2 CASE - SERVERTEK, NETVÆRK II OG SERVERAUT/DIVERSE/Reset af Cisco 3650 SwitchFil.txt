@@ -1,0 +1,33 @@
+<pre><div class="text_to_html">SUMMARY STEPS
+1. Connect a terminal or PC to the switch.
+2. Set the line speed on the emulation software to 9600 baud.
+3. Power off the standalone switch or the entire switch stack.
+4. Reconnect the power cord to the or the active switch. Within 15 seconds, press the Mode button while
+the System LED is still flashing green. Continue pressing the Mode button until all the system LEDs turn
+on and remain solid; then release the Mode button.
+5. After recovering the password, reload the switch or the active switch .
+6. Power on the remaining switches in the stack.
+
+ Procedure with Password Recovery Enabled
+
+Step 1 Initialize the flash file system.
+Switch: flash_init
+Step 2 Ignore the startup configuration with the following command:
+Switch: SWITCH_IGNORE_STARTUP_CFG=1
+Step 3 Boot the switch with the packages.conf file from flash.
+Switch: boot flash:packages.conf
+Step 4 Terminate the initial configuration dialog by answering No.
+Would you like to enter the initial configuration dialog? [yes/no]: No
+Step 5 At the switch prompt, enter privileged EXEC mode.
+Switch&gt; enable
+Step 6
+Switch# wr
+Press Return in response to the confirmation prompts. The configuration file is now saved.
+Step 10 Reload the switch.
+Switch# reload
+Step 11 Return the Bootloader parameters (previously changed in Steps 2 and 3) to their original values.
+Do initial steps again
+Switch: switch: SWITCH_IGNORE_STARTUP_CFG=0
+Step 12 Boot the switch with the packages.conf file from flash.
+Switch: boot flash:packages.conf
+Step 13 You are done!</div></pre>

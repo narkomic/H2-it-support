@@ -1,0 +1,7 @@
+Webserver - Opgave 2
+Ud fra den godkendte kravsspecifikation opsættes en fungerende webserver. Der skal løbende udarbejdes en procesrapport på max. 5 sider indeholdende log over arbejdet.
+
+Aflevering:
+
+Procesrapporten afleveres i pdf-format
+Serveren fremvises og dens funktionalitet demonstreres

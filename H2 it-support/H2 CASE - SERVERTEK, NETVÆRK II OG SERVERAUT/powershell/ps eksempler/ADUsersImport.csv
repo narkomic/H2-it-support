@@ -1,0 +1,8 @@
+#TYPE Selected.Microsoft.ActiveDirectory.Management.ADUser 
+"givenname","surname","samaccountname","office","OU" 
+"Erik","Nielsen","EN","Salg","OU=Salg,DC=SDEDOM,DC=local" 
+"Frederik","Rasmussen","FR","Salg","OU=Salg,DC=SDEDOM,DC=local" 
+"Get","Konradsen","GK","Salg","OU=Salg,DC=SDEDOM,DC=local" 
+"Henning","Asmussen","HA","HR","OU=HR,DC=SDEDOM,DC=local"
+"Isak","Olsen","IO","HR","OU=HR,DC=SDEDOM,DC=local" 
+"Jens","Hoff","JH","HR","OU=HR,DC=SDEDOM,DC=local"
