@@ -1,0 +1,10 @@
+update router firmware
+conf t
+boot system flash bootflash:isr4300-universalk9.17.09.04a.SPA.bin
+
+delete file in flash:
+del flash:/c2600-i-mz.122-5d
+
+clear config
+write erase
+reload
