@@ -8,3 +8,6 @@ del flash:/c2600-i-mz.122-5d
 clear config
 write erase
 reload
+
+hvis version i brug
+sh bootvar
